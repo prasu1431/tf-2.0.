@@ -10,7 +10,7 @@ import threading
 import concurrent
 
 BOT_OWNER_ROLE = 'fetch' # change to what you need
-#BOT_OWNER_ROLE_ID = "597732690929909761"
+#BOT_OWNER_ROLE_ID = "544387608378343446"
   
  
 
@@ -19,7 +19,7 @@ oot_channel_id_list = [
     "586950278947799041", #loco indian trivia offfical
 	"586439888610656287", #loco google trivia
     "570155872861290519", #loco sudy iq
-    "593990608914219008", #lloco galxy 
+    "586558799737913347", #lloco galxy 
 	"586562674477760512", #bb galaxy
 	"586461741953712128",# google trivia bb
 	"587984118059499560", #bb  indian trivia offfical
@@ -27,8 +27,8 @@ oot_channel_id_list = [
 	"586476852999225355",# google trivia bb pp
   "570148250427064320", #bb study iq
   "570257859850272788",#bb pp study iq
-	"459842150323060736", #hq trivia dimension
-  "568617830258442255", #hq trivia revolution
+	"523359669280833536", #hq tgl 
+  "580198028950896640", #hq trivia tribe
 	"523359846297239575", #the q tgl
   "446448458090545172",#the q trivia tribe
   "523359734406053889", #tgl conffit-us
@@ -37,19 +37,19 @@ oot_channel_id_list = [
   "556885929911124008", #tgl cashquizlive
 	"585618493093969923", # swag iq tgl
 	"446448437119025154", #sawg iq tgl
-    "595424479077990418",#q12 mexico quizdom
-    "590225820732227610",#con mexico quizdom
-    "588325679108456468",#gana-lana-trivia quizdom
-    "590609877299363865",#hq quizdom
-    "588325025040564225",#quizhero tf2.0
-    "593990611254640660",#bb galaxy
-	"593990638329004032",#jeetoh galaxy
-	"593990638916075520",#con india galaxy
-	"593990639364866069",#mykarma galaxy
-	"590182635653824542",#loco ukt
-	"5590228259937976321",#confetti india ukt
-    "593460363349983233",#jetoh ukt
-	"523359669280833536",#hq tgl
+    "558136902885048329",
+    "588739972354408532",
+    "588325679108456468",
+    "570257859850272788",
+    "588325025040564225",
+    "588748255106433045",
+	"587984504564482054",
+	"587984118059499560",
+	"586830578653855744",
+	"588739972354408532",
+	"587984347496185866",
+    "588325341563715589",
+	"590182635653824542",
 	"590182835948879872",
 	"590224806256050196",
 	"590228259937976321",
@@ -61,7 +61,7 @@ oot_channel_id_list = [
 	"591067917123190804",
 	"591186950057361409",
 	"590926548174110730",
-"590583414541910018"#test channel (Luckyjr)
+"590583414541910018"#test channel (zlex)
 ]
 
 
@@ -169,7 +169,7 @@ class Bot(discord.Client):
         self.answer_scores = answer_scores
 
         # embed creation
-        self.embed=discord.Embed(title="Luckyjr Trivia", description="**Web Searching** :spy:")
+        self.embed=discord.Embed(title="NightMare Trivia", description="**Web Searching** :spy:")
         self.embed.set_author(name ='',url=' ',icon_url='')
         self.embed.add_field(name="Option I", value="0", inline=False)
         self.embed.add_field(name="Option II", value="0", inline=False)
@@ -314,5 +314,6 @@ if __name__ == '__main__':
 
     p_bot.join()
     p_selfbot.join()
+
 
 client.run(str(os.environ.get('BOT_TOKEN')))
