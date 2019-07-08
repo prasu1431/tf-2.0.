@@ -316,4 +316,4 @@ if __name__ == '__main__':
     p_selfbot.join()
 
 
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ.get('NTk3NzMyNjkwOTI5OTA5NzYx.XSMYJw.9x-nd1Np1r8d2YplqyWngByEs9g')))
