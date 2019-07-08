@@ -10,7 +10,7 @@ import threading
 import concurrent
 
 BOT_OWNER_ROLE = 'fetch' # change to what you need
-#BOT_OWNER_ROLE_ID = "597332392637890571"
+#BOT_OWNER_ROLE_ID = "597732690929909761"
   
  
 
